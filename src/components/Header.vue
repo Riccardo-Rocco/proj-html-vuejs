@@ -2,11 +2,13 @@
 <template>
     <header>
       <Navbar1 :socialIcons="socialIcons" :alternateTexts="alternateTexts" />
+      <NavBar2 />
     </header>
   </template>
   
   <script setup>
   import Navbar1 from './Navbar1.vue';
+  import NavBar2 from './NavBar2.vue';
   
   const socialIcons = [
     { id: 1, name: 'Facebook' },
