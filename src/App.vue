@@ -1,20 +1,27 @@
-
 <template>
   <div id="app">
-    <Header />
-   
+    <div><Header /></div>
+    <div><Carousel /></div>
+    
+    
+
+
+    
   </div>
 </template>
 
-<script setup>
+<script>
 import Header from './components/Header.vue';
+import Carousel from './components/Carousel.vue';
+
+export default {
+  components: {
+    Header,
+    Carousel,
+  },
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  text-align: center;
-  color: #2a2a2a;
-  margin-top: 60px;
-}
+
 </style>

@@ -32,6 +32,9 @@
     right: 0;
     background-color: white;
     padding: 10px;
+    margin-bottom: 2%;
+
+    
   }
   </style>
   
