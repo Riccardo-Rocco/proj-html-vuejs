@@ -60,7 +60,7 @@ export default {
 <style scoped>
 .carousel-caption {
   position: absolute;
-  top: 70%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -88,8 +88,7 @@ export default {
 }
 
 img{
-  margin-top: 12%;
-  max-height: 500px;
+  min-height: 600px;
 
   
   

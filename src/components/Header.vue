@@ -26,15 +26,11 @@
   
   <style>
   header {
-    position: fixed;
     top: 0;
     left: 0;
     right: 0;
     background-color: white;
     padding: 10px;
-    margin-bottom: 2%;
-
-    
   }
   </style>
   
