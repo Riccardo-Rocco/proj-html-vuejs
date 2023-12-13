@@ -236,6 +236,7 @@ export default {
     text-align: center;
     max-width: 20%;
     max-height: 20%;
+    border: none;
 }
 
 .card img {
