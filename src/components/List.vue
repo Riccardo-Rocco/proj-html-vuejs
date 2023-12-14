@@ -1,4 +1,5 @@
 <template>
+    <!--sezione 4 liste prodotti -->
     <div class="component-container">
         <div v-for="(list, index) in lists" :key="index" class="list">
             <h4>{{ list.title }}</h4>

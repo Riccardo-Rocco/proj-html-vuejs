@@ -1,9 +1,11 @@
 <template>
+  <!--sezione logo-->
     <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
       <img src="../assets/images/classic_shop_logo1x.png" alt="Bootstrap" width="150" height="80">
     </a>
+    <!--sezione menu-->
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav Menu">
         <li class="nav-item">
@@ -28,7 +30,7 @@
             <button type="button" class="btn btn-primary rounded-pill">SHOP NOW!</button>
         </li>
       </ul>
-
+         <!--sezione icone-->
       <ul  class="navbar-nav icons">
         <li  class="nav-item icon">
             <a class="nav-link" href=""><i class="fa-regular fa-user"></i></a>
@@ -43,7 +45,7 @@
 </template>
 
 <script>
-import '@fortawesome/fontawesome-free/css/all.css'; 
+import '@fortawesome/fontawesome-free/css/all.css'; //import fontawesom
 </script>
 
 <style scoped>

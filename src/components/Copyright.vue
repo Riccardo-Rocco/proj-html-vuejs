@@ -1,4 +1,5 @@
 <template>
+  <!--sezione pagamenti e copyright-->
     <div class="black-band">
       <div class="container text-center">
         <p class="band-text">© Copyright 2012 - 2023 | Avada Theme by ThemeFusion | All Rights Reserved | Powered by Rick</p>

@@ -2,6 +2,7 @@
     <div class="container-fluid text-white py-4 MyColor">
         <div class="row">
             <!-- Lista 1 -->
+            <!--info azienda-->
             <div class="col-md-3">
                 <img src="../assets/images/classic_shop_logo_footer.png" alt="Logo" class=" mb-3 w-50 MyMargin">
                 <ul class="list-unstyled MyMargin">
@@ -20,6 +21,7 @@
             </div>
 
             <!-- Lista 2 -->
+            <!--prodotti top-->
             <div class="col-md-3">
                 <h5>TOP RATED PRODUCTS</h5>
                 <div v-for="card in cardArray" :key="card.id" class="card MyCard mb-3">
@@ -41,6 +43,7 @@
             </div>
 
             <!-- Lista 3 -->
+            <!--POST-->
             <div class="col-md-3">
                 <div class="component-container">
                     <div class="card-container">
@@ -57,59 +60,58 @@
             </div>
 
             <!-- Lista 4 -->
+            <!--TAG button-->
             <div class="col-md-3">
                 <h5>TAGS</h5>
-                <div class="row">
+                <div class="row g-0">
 
                     <div class="list">
-                       
+
                         <div class="tags">
-                            <div class="row">
-                               
-                                <div class="col-6">
+                            <div class="row g-0">
+
+                                <div class="col-3 p-0">
                                     <div class="mb-2">
                                         <button type="button" class="btn MyBtn tag-button">Winter</button>
                                     </div>
                                     <div class="mb-2">
-                                        <button type="button" class="btn MyBtn tag-button">Winter</button>
+                                        <button type="button" class="btn MyBtn tag-button">Summer</button>
                                     </div>
                                     <div class="mb-2">
-                                        <button type="button" class="btn MyBtn tag-button">Winter</button>
+                                        <button type="button" class="btn MyBtn tag-button">Autumn</button>
                                     </div>
                                     <div class="mb-2">
-                                        <button type="button" class="btn MyBtn tag-button">Winter</button>
+                                        <button type="button" class="btn MyBtn tag-button">Post</button>
                                     </div>
-                                    
-                                    
                                 </div>
 
-                              
-                                <div class="col-6">
+                                <div class="col-3 p-0">
                                     <div class="mb-2">
                                         <button type="button" class="btn MyBtn tag-button">Winter</button>
                                     </div>
                                     <div class="mb-2">
-                                        <button type="button" class="btn MyBtn tag-button">Winter</button>
+                                        <button type="button" class="btn MyBtn tag-button">Summer</button>
                                     </div>
                                     <div class="mb-2">
-                                        <button type="button" class="btn MyBtn tag-button">Winter</button>
+                                        <button type="button" class="btn MyBtn tag-button">Men</button>
                                     </div>
                                     <div class="mb-2">
-                                        <button type="button" class="btn MyBtn tag-button">Winter</button>
+                                        <button type="button" class="btn MyBtn tag-button">Women</button>
                                     </div>
-                                    
                                 </div>
                             </div>
                         </div>
-                      
+
                     </div>
                 </div>
             </div>
+            
         </div>
     </div>
 </template>
   
 <script>
+//import image come moduli per card
 import card1 from '../assets/images/spring_printed_dress-120x156.jpg';
 import card2 from '../assets/images/leather_gloves-120x156.jpg';
 import card3 from '../assets/images/black_elegant_leather_jacket-120x156.jpg';
@@ -153,7 +155,7 @@ export default {
                     price: '$59',
 
                 },
-                
+
             ],
             selectedCards: [
                 {
@@ -177,15 +179,15 @@ export default {
 </script>
   
 <style scoped>
-
-.MyBtn{
+.MyBtn {
     background-color: transparent;
     border: 1px solid white;
     color: white;
 }
+
 .tag-button:hover {
     background-color: turquoise;
-    
+
 }
 
 .MyCard {

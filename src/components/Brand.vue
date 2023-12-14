@@ -1,4 +1,5 @@
 <template>
+  <!--carousel brand footer con tutti i brand-->
     <div class="Title-container">
         <h4>BRAND LOGOS</h4>
     </div>

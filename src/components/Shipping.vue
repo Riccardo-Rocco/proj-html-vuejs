@@ -1,4 +1,5 @@
 <template>
+  <!--components post shipping e discount 70%-->
     <div class="background-component">
       <div class="content-container">
         <div class="image-with-text">

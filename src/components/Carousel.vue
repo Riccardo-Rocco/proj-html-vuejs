@@ -1,4 +1,5 @@
 <template>
+  <!--primo carosello slid con swiper jumbotron sotto navbar -->
   <Swiper :navigation="true" :modules="modules" :autoplay="{ delay: 5000, disableOnInteraction: false }" loop class="mySwiper">
     <SwiperSlide>
       <img src="../assets/images/home1_slide_one_bg.jpg" alt="Image 1" class="d-block w-100">

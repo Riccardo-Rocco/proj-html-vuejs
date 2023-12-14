@@ -1,4 +1,5 @@
 <template>
+    <!--sezioni collezioni stagionali-->
     <div class="image-gallery">
         <div v-for="(item, index) in items" :key="index" class="gallery-item">
             <div class="overlay">

@@ -11,7 +11,7 @@
       :pagination="{ type: 'fraction' }"
       :navigation="true"
       :loop="true"
-      :autoplay="{ delay: 5000, disableOnInteraction: false }"
+      :autoplay="{ delay: 3000, disableOnInteraction: false }"
       :modules="modules"
       class="mySwiper"
     >
@@ -21,6 +21,7 @@
           <div class="card-overlay">
             <h5>Black Elegant Leather Jacket</h5>
             <p>Men, Jackets, Jeans</p>
+            <p class="original-price" >$235</p>
             <p>$200</p>
           </div>
         </div>
@@ -127,6 +128,11 @@
     margin-bottom: 50px;
     text-align: center;
   }
+
+  .original-price {
+    text-decoration: line-through;
+    margin-right: 0.5rem; 
+}
   
  
   
@@ -153,7 +159,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 165, 0, 0.7);
+    background: linear-gradient(180.3deg, rgb(214, 224, 255) 20.2%, rgb(254, 168, 168) 100.3%);
     display: flex;
     flex-direction: column;
     align-items: center;

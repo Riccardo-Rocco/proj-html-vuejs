@@ -1,4 +1,5 @@
 <template>
+  <!--sezione post per il blog-->
     <div class="component-container">
       <div class="header">
         <h2>{{ title }}</h2>

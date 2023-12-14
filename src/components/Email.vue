@@ -1,4 +1,5 @@
 <template>
+    <!--input email-->
     <div class="container-fluid MyColor text-white mt-5 py-5">
         <div class="row ">
             <div class="col-md-4 text-end">
