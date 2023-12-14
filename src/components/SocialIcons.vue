@@ -1,5 +1,6 @@
 
 <template>
+  <!--ciclo for per fontawesom icone social. componente richiamato successivamente in header e navbar1-->
     <div class="social-icons">
       <a v-for="icon in icons" :key="icon.id" :href="`#${icon.name.toLowerCase()}`">
         <i :class="`fab fa-${icon.name.toLowerCase()}`"></i>
@@ -26,6 +27,7 @@
   
  
   <script>
+  //import di fontawesom
   import '@fortawesome/fontawesome-free/css/all.css'; 
   </script>
   

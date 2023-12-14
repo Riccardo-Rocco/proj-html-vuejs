@@ -1,4 +1,5 @@
 <template>
+  <!--componente testimonial mini-slider con swiper-->
   <Swiper :pagination="{ clickable: true,}" :modules="modules" class="mySwiper" >
     <SwiperSlide>
       <img src="../assets/images/testimonials_home_1_bg.jpg" alt="Image 1" class="d-block w-100">
@@ -20,6 +21,7 @@
 </template>
 
 <script>
+//import di swiper moduli e css
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/css';
 import 'swiper/css/pagination';
